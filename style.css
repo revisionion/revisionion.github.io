@@ -1,0 +1,66 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  background: url("https://www.ironmarines.com/images/main_bg.jpg");
+  background-size: 1247px 701px;
+  background-attachment: fixed;
+  font-family: 'Lato', sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #b7e6ea;
+  text-shadow: 0px 0px 10px rgb(2, 24, 29);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Carter One', cursive;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #ffefd2;
+  text-align: center;
+  text-shadow: 2px 2px #aa7950;
+}
+
+h2 {
+  font-family: 'Carter One', cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffe6b7;
+  text-align: center;
+  text-shadow: 2px 2px #aa7950;
+}
+
+h3 {
+  font-size: 27px;
+  color: #8adbc2;
+  text-shadow: 0px 0px 5px #050538;
+}
+
+a {
+  color: rgb(218, 242, 255);
+}
+
+.openingcon {
+  background: url("https://www.ironmarines.com/images/bg_abstract_data.png");
+  background-size: 1334px 540px;
+  background-repeat: no-repeat;
+  min-height: 540px;
+  background-position: center top;
+}
+
+.con {
+  max-width: 850px;
+  padding: 30px 10px;
+  width: 100%;
+  background-image: url("https://www.ironmarines.com/images/deco_grid.png");
+  background-repeat: repeat-y;
+  background-position: center;
+  align-self: center;
+  border-radius: 25px;
+  border-bottom: 1px solid #2bfff7;
+  border-top: 1px solid #2bfff7;
+  margin: 25px auto;
+}
